@@ -1,0 +1,7 @@
+how to create a jailbreak iphone app that runs in root permission?
+------------------------------------------------------------------------
+This is a demo shows you how to build a app that can runs in root permission on your jailbreaked iPhone. 
+
+http://ixhan.com
+
+
