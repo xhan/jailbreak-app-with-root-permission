@@ -1,0 +1,9 @@
+Package: com.xhan.crackme2
+Name: crackMe2
+Depends: 
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome application!
+Maintainer: xhan
+Author: xhan
+Section: Utilities

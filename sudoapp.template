@@ -1,0 +1,19 @@
+#!/bin/bash
+
+cd "/Applications/<ProjectName>.app/"
+
+# process origin binary
+chown root.wheel <ProjectName>
+mv crackMe2 <ProjectName>_
+chmod +s <ProjectName>_
+
+cont=`cat <<"EOF"
+#!/bin/bash
+dir=$(dirname "$0")
+exec "${dir}"/<ProjectName>_ "$@"
+EOF
+`
+# create new fake binary
+echo -e "$cont" > <ProjectName>
+chown root.wheel <ProjectName>
+chmod +x <ProjectName>
