@@ -1,5 +1,5 @@
 project=$(grep APPLICATION_NAME Makefile | awk '{print $3}')
-echo "project name is $project"
+echo "creating root-permission script for: $project"
 
 target=_/DEBIAN/postinst
 cp sudoapp.template $target
