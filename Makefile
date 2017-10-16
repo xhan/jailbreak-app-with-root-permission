@@ -1,4 +1,4 @@
-include theos/makefiles/common.mk
+include $(theos)/makefiles/common.mk
 
 APPLICATION_NAME = crackMe2
 crackMe2_FILES = main.m ViewController.m
